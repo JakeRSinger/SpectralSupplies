@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+        <script src="scripts/fetchProducts.js" defer></script>
+        <script type="text/javascript" src="scripts/hammer.js"></script>
+        <script type="text/javascript" src="scripts/modeAndNav.js"></script>
+        <script type="text/javascript" src="scripts/fetchDetails.js"></script>
+    
+        <title>Store - Spectral Supply Co.</title>
+    </head>
+    <body>
+
+        <img src="img/menu.png" id="nav-toggle" class="nav-toggle white-img">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="store.html">Store</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="basket.html">Basket</a></li>
+                <li><a id="login-link" href="login.php">Login</a></li>
+
+            </ul>
+            <img src="img/moon.png" id="light-mode-toggle" class="light-mode-toggle white-img">
+        </nav>
+    
+        <header class="section-primary">
+            <div class="content-container">
+                <div class="header">
+                    <div class="header-content">
+                        <p class="tagline">Join Our Club!</p>
+                        <h1 class="primary-heading">Spectral Supply Co. Club</h1>
+                        <p class="club-text">
+                            Join the Spectral Supply Co. Club for exclusive discounts, early access to gear, and our monthly newsletter packed with supernatural tips, latest products, and member-only events.
+                            Gear up and stay informed—become a member today!
+                        </p>
+    
+                        <button>Join</button>
+                    </div>
+    
+                    <img src="img/cthulhu.png" alt="Cthulhu" class="header-image">
+                </div>
+            </div>
+        </header>
+
+        <div class="section-secondary">
+            <div class="store">
+                <div class="filters">
+                    <p class="subtitle">Filter Products</p>
+                    <div class="filter-options">
+                        <input type="checkbox" id="filter-1" name="filter-1" value="filter-1">
+                        <label class="check-lbl" for="filter-1">Spectral Tools & Weapons</label><br>
+                        <input type="checkbox" id="filter-2" name="filter-2" value="filter-2">
+                        <label class="check-lbl" for="filter-2">Protective Gear</label><br>
+                        <input type="checkbox" id="filter-3" name="filter-3" value="filter-3">
+                        <label class="check-lbl" for="filter-3">Tracking & Detection Gadgets</label><br>
+                        <input type="checkbox" id="filter-4" name="filter-4" value="filter-4">
+                        <label class="check-lbl" for="filter-4">Alchemical Supplies</label><br>
+                        <input type="checkbox" id="filter-5" name="filter-5" value="filter-5">
+                        <label class="check-lbl" for="filter-5">Research & Ritual Items</label><br>
+                        <input type="checkbox" id="filter-6" name="filter-6" value="filter-6">
+                        <label class="check-lbl" for="filter-6">Utility Apparel</label><br>
+                    </div>
+                </div>
+
+                <div class="products" id="products">
+
+                </div>
+            </div>    
+        </div>
+
+    </body>
+</html>
