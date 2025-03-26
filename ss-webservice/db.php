@@ -1,9 +1,9 @@
 <?php
 
-    $host = "comp-server.uhi.ac.uk";
-    $dbName = "IN21011375";
-    $username = "IN21011375";
-    $password = '21011375';
+    $host = "";
+    $dbName = "";
+    $username = "";
+    $password = '';
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$dbName", $username, $password);
